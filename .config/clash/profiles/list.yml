@@ -1,0 +1,65 @@
+files:
+  - url: ""
+    time: 1679370069875.yml
+    name: config.yaml
+    selected:
+      - name: GLOBAL
+        now: REJECT
+    mode: direct
+    interval: 0
+    cron: ""
+    headers: ""
+  - url: ""
+    time: 1684937741220.yml
+    name: 1684903972984.yml
+    selected:
+      - name: GLOBAL
+        now: default_Trojan_gRPC
+      - name: 🚀 节点选择
+        now: ♻️ 自动选择
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🚀 节点选择
+      - name: 🍎 苹果服务
+        now: 🚀 节点选择
+      - name: 📢 谷歌FCM
+        now: 🚀 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
+    mode: direct
+  - time: 1685693908729.yml
+    name: Clash_1685693905.yaml
+    url: https://www.mxssr3.top/link/YUMZdgtxTRV6y5X4?clash=1
+    selected:
+      - name: GLOBAL
+        now: ⒋[vip1]广移-中转-日本
+      - name: Proxy
+        now: ⒊[vip1]广移-中转-日本
+      - name: Domestic
+        now: DIRECT
+      - name: AsianTV
+        now: Domestic
+      - name: GlobalTV
+        now: Proxy
+      - name: Others
+        now: Proxy
+    interval: 0
+    subInfo:
+      upload: 11424528
+      download: 1604226132
+      total: 322122547200
+      expire: 1716781746
+    homeWeb: ""
+    mode: rule
+    cron: ""
+    headers: ""
+index: 2

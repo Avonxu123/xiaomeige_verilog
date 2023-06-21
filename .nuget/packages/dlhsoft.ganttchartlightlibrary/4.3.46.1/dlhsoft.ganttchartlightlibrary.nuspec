@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>DlhSoft.GanttChartLightLibrary</id>
+    <version>4.3.46.1</version>
+    <title>DlhSoft Gantt Chart Light Library for Silverlight/LightSwitch and WPF</title>
+    <authors>DlhSoft</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://dlhsoft.com/LicenseAgreements/ComponentEULA.rtf</licenseUrl>
+    <projectUrl>http://dlhsoft.com/GanttChartLightLibrary</projectUrl>
+    <iconUrl>http://dlhsoft.com/GanttChartLightLibrary/Icon.png</iconUrl>
+    <description>Task hierarchy and resource scheduling components for Silverlight™ 4 / WPF and .NET 4 or .NET Core 3.1/5+: Gantt Chart, Schedule Chart, Load Chart; PERT Chart, Network Diagram. Main features: Interactive task hierarchy management, resource scheduling, resource load, and project flow charts; Task bars and dependency lines with drag and drop support; Copy and paste operations, undo queue; Working time, scales, and zoom level customization; Project baseline visualization, critical path enumeration; Resource leveling algorithm; Support to display multiple assignment lines in a single row; Data binding with high customizability; Increased performance for large sets of data; Rich user experience, customizable appearance, culture awareness; Customizable printing and image exporting; Two-way Microsoft Project® XML compatibility; Model-View-ViewModel (MVVM) pattern support (Prism).</description>
+    <summary>Task hierarchy and resource scheduling components for Silverlight™ 4 / WPF and .NET 4 or .NET Core 3.1/5+: Gantt Chart, Schedule Chart, Load Chart; PERT Chart, Network Diagram.</summary>
+    <releaseNotes>Added drag completing events on DragThumbTask (when used to support vertical drag operations, i.e. hierarchical moving), DragDependencyThumb, and DragAssignmentThumb WPF classes, allowing developers to optionally cancel the operations (or, upon dragging new dependency lines, to initialize DependencyType) in certain conditions based on their external requirments; added optional support for retrieving Schedule chart items with dependency links (predecessor items) from Gantt chart components; fixed an issue that was previously inadvertendly allowing the end user to vertically scroll the Schedule chart area up to a certain level when content was not scrollable; resolved some issues that were previously occurring when you tried to import Project XML files that didn't have a CalendarUID specified for the project; other improvements.</releaseNotes>
+    <copyright>Copyright © 2010-2022 DlhSoft</copyright>
+    <language></language>
+    <tags>Gantt schedule PERT chart project task management Silverlight WPF LightSwitch</tags>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <dependency id="DlhSoft.HierarchicalDataLightLibrary" version="4.0.10.8" />
+    </dependencies>
+  </metadata>
+</package>

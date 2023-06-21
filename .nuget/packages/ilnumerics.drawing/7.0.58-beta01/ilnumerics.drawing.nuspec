@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ILNumerics.Drawing</id>
+    <version>7.0.58-beta01</version>
+    <title>ILNumerics Ultimate VS: ILNumerics Visualiation Engine</title>
+    <authors>ILNumerics_GmbH</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>ILNumerics.png</icon>
+    <readme>Readme_generated.md</readme>
+    <projectUrl>https://ilnumerics.net/Visualization-API.html</projectUrl>
+    <description>Modern, interactive, technical and scientific plots and visualizations in 2D and 3D. This module is part of the ILNumerics Visualization Engine for creation of fast and interactive 2D/3D visualizatios on .NET. Free trial licenses are available here: https://ilnumerics.net/download.html.</description>
+    <releaseNotes>See the changelog: https://ilnumerics.net/changelog.html</releaseNotes>
+    <copyright>Copyright © ILNumerics GmbH, Berlin, Germany, 2006...2022</copyright>
+    <tags>Windows.Forms WPF OpenGL GDI SVG Bitmap BMP PNG JPG JPEG Server Line Triangles Surface Plots Bar Chart Scene Graph ILNumerics Computing Math Arrays FFT LAPACK numpy Matlab Visualization Plotting Charts 2D 3D High Performance</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="ILNumerics.Computing" version="7.0.58-beta01" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="ILNumerics.Computing" version="7.0.58-beta01" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

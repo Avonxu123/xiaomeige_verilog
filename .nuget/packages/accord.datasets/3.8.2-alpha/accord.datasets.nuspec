@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Accord.DataSets</id>
+    <version>3.8.2-alpha</version>
+    <title>Accord.DataSets</title>
+    <authors>Accord.NET</authors>
+    <owners>Accord.NET</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://accord-framework.net/license.txt</licenseUrl>
+    <projectUrl>http://accord-framework.net/</projectUrl>
+    <iconUrl>http://accord-framework.net/logo.png</iconUrl>
+    <description>Contains classes to download and parse machine learning datasets such as MNIST, News20, Iris. This package is part of the Accord.NET Framework.</description>
+    <summary>Download and open standard machine learning datasets from the web, such as MNIST, Newsgroups, Iris and others.</summary>
+    <tags>accord.net aforge.net framework statistics mnist machine learning cifar imagenet unity3d unity</tags>
+    <dependencies>
+      <dependency id="Accord" version="3.8.2-alpha" />
+      <dependency id="Accord.IO" version="3.8.2-alpha" />
+      <dependency id="Accord.Math" version="3.8.2-alpha" />
+      <dependency id="SharpZipLib" version="0.86.0" />
+    </dependencies>
+  </metadata>
+</package>

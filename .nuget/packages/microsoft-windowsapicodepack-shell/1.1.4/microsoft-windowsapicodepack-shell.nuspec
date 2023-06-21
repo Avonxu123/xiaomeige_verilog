@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft-WindowsAPICodePack-Shell</id>
+    <version>1.1.4</version>
+    <title>Microsoft.WindowsAPICodePack.Shell</title>
+    <authors>rpastric,contre,dahall</authors>
+    <owners>rpastric,contre,dahall</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/contre/Windows-API-Code-Pack-1.1/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/contre/Windows-API-Code-Pack-1.1</projectUrl>
+    <description>The Shell code for the WindowsAPICodePack. This is an updated version containing all available bug fixes for this code as of</description>
+    <releaseNotes>See CHANGELOG.md in project site. https://github.com/contre/Windows-API-Code-Pack-1.1/blob/master/CHANGELOG.md</releaseNotes>
+    <copyright>Copyright © 2020</copyright>
+    <tags>WindowsAPICodePack</tags>
+    <repository type="git" commit="77b2b6d27664f5b2bfe70181fb9ecfd90805f0a9" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Microsoft-WindowsAPICodePack-Core" version="1.1.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft-WindowsAPICodePack-Core" version="1.1.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Microsoft-WindowsAPICodePack-Core" version="1.1.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="Microsoft-WindowsAPICodePack-Core" version="1.1.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="Microsoft-WindowsAPICodePack-Core" version="1.1.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft-WindowsAPICodePack-Core" version="1.1.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App" />
+      </group>
+    </frameworkReferences>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="CustomMarshalers" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="WindowsFormsIntegration" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

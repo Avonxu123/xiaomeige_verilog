@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Accord.DirectSound</id>
+    <version>3.7.2-alpha</version>
+    <title>Accord.Audio.DirectSound</title>
+    <authors>Accord.NET</authors>
+    <owners>Accord.NET</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://accord-framework.net/license.txt</licenseUrl>
+    <projectUrl>http://accord-framework.net/</projectUrl>
+    <iconUrl>http://accord-framework.net/logo.png</iconUrl>
+    <description>Play and record audio using DirectSound. This package is part of the Accord.NET Framework.</description>
+    <summary>Play and record audio using DirectSound.</summary>
+    <tags>accord.net aforge.net framework computer audition audio processing wave capture</tags>
+    <dependencies>
+      <group>
+        <dependency id="Accord" version="3.7.2-alpha" />
+        <dependency id="Accord.Math" version="3.7.2-alpha" />
+        <dependency id="Accord.Audio" version="3.7.2-alpha" />
+      </group>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="SharpDX.DirectSound" version="2.6.3" />
+      </group>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="SharpDX.DirectSound" version="2.6.3" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="SharpDX.DirectSound" version="4.0.1" />
+      </group>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="SharpDX.DirectSound" version="4.0.1" />
+      </group>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="SharpDX.DirectSound" version="4.0.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="SharpDX.DirectSound" version="4.0.1" />
+      </group>
+      <group targetFramework=".NETStandard1.4">
+        <dependency id="SharpDX.DirectSound" version="4.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MWArray.Extensions.v92</id>
+    <version>0.4.6782.16417</version>
+    <title>.NET MWArray API Extensions</title>
+    <authors>honza.kuzel</authors>
+    <owners>honza.kuzel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET MWArray API Extensions</description>
+    <copyright>Copyright ©  2018</copyright>
+    <dependencies />
+  </metadata>
+</package>

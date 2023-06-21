@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ILNumerics.Core.Platforms</id>
+    <version>6.0.148</version>
+    <title>ILNumerics Ultimate VS: ILNumerics Core Platforms (helper)</title>
+    <authors>ILNumerics_GmbH</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>ILNumerics.png</icon>
+    <readme>Readme_generated.md</readme>
+    <projectUrl>https://ilnumerics.net/</projectUrl>
+    <description>This module supports the ILNumerics infrastructure. Internal use. Start with ILNumerics.Computing or ILNumerics.Drawing!</description>
+    <releaseNotes>See the changelog: https://ilnumerics.net/changelog.html</releaseNotes>
+    <copyright>Copyright © ILNumerics GmbH, Berlin, Germany, 2006...2022</copyright>
+    <tags>ILNumerics Computing Math Arrays FFT LAPACK numpy Matlab Visualization Plotting Charts 3D High Performance</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.EventLog" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Permissions" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.EventLog" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Permissions" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

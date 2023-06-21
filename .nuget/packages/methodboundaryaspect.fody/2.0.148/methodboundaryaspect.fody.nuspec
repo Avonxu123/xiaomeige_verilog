@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MethodBoundaryAspect.Fody</id>
+    <version>2.0.148</version>
+    <authors>Ralf Kornelius, Marcell Spies, Martin Ayasse, Contributors</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/vescon/MethodBoundaryAspect.Fody</projectUrl>
+    <iconUrl>https://github.com/vescon/MethodBoundaryAspect.Fody/raw/master/docs/images/NuGetIcon.png</iconUrl>
+    <description>A Fody weaver which allows to decorate methods and hook into method start, method end and method exceptions. Additionally you have access to useful method parameters.</description>
+    <copyright>Copyright © 2022 VESCON GmbH</copyright>
+    <tags>il weaving fody aspect aop method-invocation method boundary</tags>
+    <repository type="git" url="https://github.com/vescon/MethodBoundaryAspect.Fody" commit="f22cc0b9be570b7abf06e325769051a3cd95ec65" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Fody" version="6.0.5" include="All" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Fody" version="6.0.5" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

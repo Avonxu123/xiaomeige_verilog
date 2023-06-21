@@ -1,0 +1,54 @@
+2023-05-29 20:52:51,963 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-05-29 20:52:52,541 DEBUG:?:? - Starting to listen
+2023-05-29 20:52:52,646 DEBUG:?:? - Got proxy host from user input: 127.0.0.1
+2023-05-29 20:52:52,655 DEBUG:?:? - Setting up proxy, proxyHost: 127.0.0.1, port: 14192 no Authenticator
+2023-05-29 20:52:52,658 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-05-29 20:52:52,661 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-05-29 20:52:52,662 DEBUG:?:? - Download to C:\Users\23658\AppData\Local\Temp\1685364772655\installClientInfo.dat
+2023-05-29 20:52:52,663 DEBUG:?:? - File not exists or incomplete file C:\Users\23658\AppData\Local\Temp\1685364772655\installClientInfo.dat,  deleting and starting download from scratch.
+2023-05-29 20:52:52,670 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-05 16:49:21,344 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-05 16:49:21,882 DEBUG:?:? - Starting to listen
+2023-06-05 16:49:21,947 DEBUG:?:? - Got proxy settings from system 127.0.0.1:14192
+2023-06-05 16:49:21,957 DEBUG:?:? - Setting up proxy, proxyHost: 127.0.0.1, port: 14192 no Authenticator
+2023-06-05 16:49:21,957 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-05 16:49:21,967 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-05 16:49:21,968 DEBUG:?:? - Download to C:\Users\23658\AppData\Local\Temp\1685954961957\installClientInfo.dat
+2023-06-05 16:49:21,968 DEBUG:?:? - File not exists or incomplete file C:\Users\23658\AppData\Local\Temp\1685954961957\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-05 16:49:21,974 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-06 10:52:17,130 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-06 10:52:17,651 DEBUG:?:? - Starting to listen
+2023-06-06 10:52:17,711 DEBUG:?:? - Got proxy settings from system 127.0.0.1:14192
+2023-06-06 10:52:17,723 DEBUG:?:? - Setting up proxy, proxyHost: 127.0.0.1, port: 14192 no Authenticator
+2023-06-06 10:52:17,723 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-06 10:52:17,723 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-06 10:52:17,723 DEBUG:?:? - Download to C:\Users\23658\AppData\Local\Temp\1686019937723\installClientInfo.dat
+2023-06-06 10:52:17,723 DEBUG:?:? - File not exists or incomplete file C:\Users\23658\AppData\Local\Temp\1686019937723\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-06 10:52:17,733 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-18 03:48:42,860 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-18 03:48:43,406 DEBUG:?:? - Starting to listen
+2023-06-18 03:48:43,462 DEBUG:?:? - Got proxy settings from system 127.0.0.1:14192
+2023-06-18 03:48:43,472 DEBUG:?:? - Setting up proxy, proxyHost: 127.0.0.1, port: 14192 no Authenticator
+2023-06-18 03:48:43,472 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-18 03:48:43,472 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-18 03:48:43,472 DEBUG:?:? - Download to C:\Users\23658\AppData\Local\Temp\1687031323472\installClientInfo.dat
+2023-06-18 03:48:43,472 DEBUG:?:? - File not exists or incomplete file C:\Users\23658\AppData\Local\Temp\1687031323472\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-18 03:48:43,482 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-18 11:54:45,889 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-18 11:54:46,463 DEBUG:?:? - Starting to listen
+2023-06-18 11:54:46,581 DEBUG:?:? - Got proxy settings from system 127.0.0.1:14192
+2023-06-18 11:54:46,588 DEBUG:?:? - Setting up proxy, proxyHost: 127.0.0.1, port: 14192 no Authenticator
+2023-06-18 11:54:46,594 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-18 11:54:46,600 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-18 11:54:46,600 DEBUG:?:? - Download to C:\Users\23658\AppData\Local\Temp\1687060486588\installClientInfo.dat
+2023-06-18 11:54:46,601 DEBUG:?:? - File not exists or incomplete file C:\Users\23658\AppData\Local\Temp\1687060486588\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-18 11:54:46,612 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-19 10:40:14,442 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2023-06-19 10:40:15,224 DEBUG:?:? - Starting to listen
+2023-06-19 10:40:15,316 DEBUG:?:? - Got proxy settings from system 127.0.0.1:14192
+2023-06-19 10:40:15,324 DEBUG:?:? - Setting up proxy, proxyHost: 127.0.0.1, port: 14192 no Authenticator
+2023-06-19 10:40:15,324 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2023-06-19 10:40:15,332 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2023-06-19 10:40:15,332 DEBUG:?:? - Download to C:\Users\23658\AppData\Local\Temp\1687142415324\installClientInfo.dat
+2023-06-19 10:40:15,332 DEBUG:?:? - File not exists or incomplete file C:\Users\23658\AppData\Local\Temp\1687142415324\installClientInfo.dat,  deleting and starting download from scratch.
+2023-06-19 10:40:15,348 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat

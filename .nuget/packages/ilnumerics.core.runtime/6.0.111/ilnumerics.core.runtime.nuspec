@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ILNumerics.Core.Runtime</id>
+    <version>6.0.111</version>
+    <title>ILNumerics Ultimate VS: ILNumerics Core runtime types and methods</title>
+    <authors>ILNumerics_GmbH</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>ILNumerics.png</icon>
+    <projectUrl>https://ilnumerics.net/</projectUrl>
+    <description>This module supports the ILNumerics infrastructure at runtime. It is always required and automatically added by ILNumerics.Core. Free trial licenses are available here: https://ilnumerics.net/download.html.</description>
+    <releaseNotes>See the changelog: https://ilnumerics.net/changelog.html</releaseNotes>
+    <copyright>Copyright © ILNumerics GmbH, Berlin, Germany, 2006...2021</copyright>
+    <tags>ILNumerics Computing numpy Visualization Plotting Charts 2D 3D surface scientific</tags>
+    <readme>Readme_generated.md</readme>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+</package>

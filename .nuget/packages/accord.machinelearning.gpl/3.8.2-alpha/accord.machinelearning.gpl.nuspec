@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Accord.MachineLearning.GPL</id>
+    <version>3.8.2-alpha</version>
+    <title>Accord.NET Machine Learning (GPL extras)</title>
+    <authors>Accord.NET</authors>
+    <owners>Accord.NET</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <projectUrl>http://accord-framework.net/</projectUrl>
+    <iconUrl>http://accord-framework.net/logo.png</iconUrl>
+    <description>This package contains libraries of the Accord.NET Framework that are NOT available under the LGPL. It currently includes Accord.MachineLearning.GPL, which contains GPL code and thus can only be used inside GPL-compliant applications. Please take extra care before including this library in your projects.</description>
+    <summary>Extra non-LGPL machine learning libraries from the Accord.NET framework, containing Sequential Minimal Optimization for Regression (SMOreg).</summary>
+    <tags>accord.net aforge.net machine learning artificial intelligence smo svm gpl kernel unity3d unity</tags>
+    <dependencies>
+      <dependency id="Accord" version="3.8.2-alpha" />
+      <dependency id="Accord.Math" version="3.8.2-alpha" />
+      <dependency id="Accord.Statistics" version="3.8.2-alpha" />
+      <dependency id="Accord.MachineLearning" version="3.8.2-alpha" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Avalonia.Diagnostics</id>
+    <version>0.10.18</version>
+    <authors>Avalonia.Diagnostics</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://avaloniaui.net/</projectUrl>
+    <description>Avalonia is a cross-platform UI framework for .NET providing a flexible styling system and supporting a wide range of Operating Systems such as Windows, Linux, MacOS and with experimental support for Android, iOS and WebAssembly.</description>
+    <releaseNotes>https://github.com/AvaloniaUI/Avalonia/releases</releaseNotes>
+    <copyright>Copyright 2022 © The AvaloniaUI Project</copyright>
+    <tags>avalonia avaloniaui mvvm rx reactive extensions android ios mac forms wpf net netstandard net461 uwp xamarin</tags>
+    <repository type="git" url="https://github.com/AvaloniaUI/Avalonia/" commit="401bc521d2947bf7699a530f3d6e43e7a32c6baf" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Scripting" version="3.4.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reactive" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Controls.DataGrid" version="0.10.18" exclude="Build,Analyzers" />
+        <dependency id="Avalonia" version="0.10.18" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DlhSoft.HierarchicalDataLightLibrary</id>
+        <version>4.0.10.8</version>
+        <title>DlhSoft Hierarchical Data Light Library for Silverlight and WPF</title>
+        <authors>DlhSoft</authors>
+        <licenseUrl>http://DlhSoft.com/LicenseAgreements/ComponentEULA.rtf</licenseUrl>
+        <projectUrl>http://DlhSoft.com/HierarchicalDataLightLibrary</projectUrl>
+        <iconUrl>http://DlhSoft.com/HierarchicalDataLightLibrary/Icon.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Hierarchical data presentation components for Silverlight™ 4 / WPF and .NET 4 or .NET Core 3.1/5+: Data tree-grid. Main features: Inheriting DataGrid, providing tree-view behavior; Data binding with high customizability; Increased performance for large sets of data; Rich user experience, customizable appearance; Model-View-ViewModel (MVVM) pattern support (Prism).</description>
+        <summary>Hierarchical data presentation components for Silverlight™ 4 / WPF and .NET 4 or .NET Core 3.1/5+: Data tree-grid.</summary>
+        <releaseNotes>.NET Core support</releaseNotes>
+        <copyright>Copyright © 2010-2022 DlhSoft</copyright>
+        <language />
+        <tags>tree grid hierarchical data list Silverlight WPF</tags>
+    </metadata>
+</package>

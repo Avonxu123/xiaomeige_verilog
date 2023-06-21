@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Emgu.TF</id>
+    <version>2.10.1.1490</version>
+    <title>Emgu TF x64</title>
+    <authors>Emgu Corporation</authors>
+    <owners>Emgu Corporation</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>http://www.emgu.com/wiki/index.php/Emgu_TF</projectUrl>
+    <description>Emgu TF is a cross platform .Net wrapper for the Google Tensorflow library. Allows Tensorflow functions to be called from .NET compatible languages such as C#, VB, VC++, IronPython.</description>
+    <summary>Emgu TF is a cross platform .Net wrapper for the Google Tensorflow library.</summary>
+    <releaseNotes>This is the 2.10.1.1490 release of Emgu TF. For online documentation please visit
+http://www.emgu.com/wiki/files/emgutf/2.10.1/document/</releaseNotes>
+    <copyright>© Emgu Corporation 2022. All rights reserved</copyright>
+    <tags>tensorflow emgu emgutf ai</tags>
+    <repository type="git" url="https://github.com/emgucv/emgutf" />
+  </metadata>
+</package>

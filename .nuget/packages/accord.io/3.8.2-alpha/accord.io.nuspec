@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Accord.IO</id>
+    <version>3.8.2-alpha</version>
+    <title>Accord.IO</title>
+    <authors>Accord.NET</authors>
+    <owners>Accord.NET</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://accord-framework.net/license.txt</licenseUrl>
+    <projectUrl>http://accord-framework.net/</projectUrl>
+    <iconUrl>http://accord-framework.net/logo.png</iconUrl>
+    <description>Contains File and data parsers to load and save data from different file formats. This package is part of the Accord.NET Framework.</description>
+    <summary>Read and write CSV files with automatic delimiter detection, Excel XLS and XLSX files, IDX datasets (MNIST), Sparse samples (LibSVM), MATLAB/Octave .MAT files and others.</summary>
+    <tags>accord.net aforge.net framework statistics mnist libsvm excel mat-file matlab octave matrix unity3d unity</tags>
+    <dependencies>
+      <dependency id="Accord" version="3.8.2-alpha" />
+      <dependency id="SharpZipLib" version="0.86.0" />
+    </dependencies>
+  </metadata>
+</package>

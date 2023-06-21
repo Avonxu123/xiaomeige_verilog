@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ILNumerics.Tools.CodeTransforms</id>
+    <version>6.0.111</version>
+    <title>ILNumerics Ultimate VS: ILNumerics Code Transform Tools</title>
+    <authors>ILNumerics_GmbH</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>ILNumerics.png</icon>
+    <projectUrl>https://ilnumerics.net/</projectUrl>
+    <description>This module supports the ILNumerics infrastructure. Internal use. Start with ILNumerics.Computing or ILNumerics.Drawing!</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright © ILNumerics GmbH, Berlin, Germany, 2006...2021</copyright>
+    <tags>ILNumerics;Computing;Math;Arrays;FFT;LAPACK;numpy;Matlab;Visualization;Plotting;Charts;3D;High Performance</tags>
+  </metadata>
+</package>

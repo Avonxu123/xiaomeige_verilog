@@ -1,0 +1,35 @@
+#ImageJ 1.52a Preferences
+#Mon Aug 29 21:41:16 CST 2022
+menu.size=15
+fps=7.0
+new.type=0
+new.width=512
+fcolor=\#FFFFFF
+div-by-zero=Infinity
+pp.options=0
+prefs.options2=2
+raw.type=0
+ij.y=126
+roicolor=\#FFFF00
+ij.x=534
+noise.sd=25.0
+prefs.options=549474304
+new.slices=1
+raw.width=512
+new.height=512
+new.fill=1
+.image.loc=75,41
+recent01=C\:\\Users\\23658\\AppData\\Local\\Temp\\WeChat Files\\7597814753c78dd4359de61e2450089.jpg
+bcolor=\#000000
+recent00=C\:\\Users\\23658\\Desktop\\7597814753c78dd4359de61e2450089.png
+ap.options=64
+measurements=19
+precision=3
+.b&c.loc=1036,253
+raw.gap=0
+raw.height=512
+raw.options=0
+showcolor=\#00FFFF
+raw.n=1
+jpeg=85
+raw.offset=0

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Accord.Controls.Vision</id>
+    <version>3.7.2-alpha</version>
+    <title>Accord.Controls.Vision</title>
+    <authors>Accord.NET</authors>
+    <owners>Accord.NET</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://accord-framework.net/license.txt</licenseUrl>
+    <projectUrl>http://accord-framework.net/</projectUrl>
+    <iconUrl>http://accord-framework.net/logo.png</iconUrl>
+    <description>Windows Forms components and controls to track head, face and hand movements and other computer vision related tasks. This package is part of the Accord.NET Framework.</description>
+    <summary>Control an interface using head, face and hand tracking.</summary>
+    <tags>accord.net aforge.net framework computer vision object detection tracking</tags>
+    <dependencies>
+      <dependency id="Accord" version="3.7.2-alpha" />
+      <dependency id="Accord.Controls.Imaging" version="3.7.2-alpha" />
+      <dependency id="Accord.Imaging" version="3.7.2-alpha" />
+      <dependency id="Accord.Math" version="3.7.2-alpha" />
+      <dependency id="Accord.Statistics" version="3.7.2-alpha" />
+      <dependency id="Accord.Vision" version="3.7.2-alpha" />
+    </dependencies>
+  </metadata>
+</package>

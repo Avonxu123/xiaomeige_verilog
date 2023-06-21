@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft-WindowsAPICodePack-Core</id>
+    <version>1.1.4</version>
+    <title>Microsoft.WindowsAPICodePack</title>
+    <authors>rpastric,contre,dahall</authors>
+    <owners>rpastric,contre,dahall</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/contre/Windows-API-Code-Pack-1.1/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/contre/Windows-API-Code-Pack-1.1</projectUrl>
+    <description>The Core code for the WindowsAPICodePack. This is an updated version containing all available bug fixes for this code as of 2019-10-18.</description>
+    <releaseNotes>See CHANGELOG.md in project site. https://github.com/contre/Windows-API-Code-Pack-1.1/blob/master/CHANGELOG.md</releaseNotes>
+    <copyright>Copyright © 2020</copyright>
+    <tags>WindowsAPICodePack</tags>
+    <repository type="git" commit="77b2b6d27664f5b2bfe70181fb9ecfd90805f0a9" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETFramework4.6.2" />
+      <group targetFramework=".NETFramework4.7.2" />
+      <group targetFramework=".NETFramework4.8" />
+      <group targetFramework=".NETCoreApp3.0" />
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5.2, .NETFramework4.6.2, .NETFramework4.7.2, .NETFramework4.8" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
